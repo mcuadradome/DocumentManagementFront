@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
+  name='';
 
-  constructor() { }
+  constructor() {
+
+  }
 
   ngOnInit(): void {
+  }
+
+  onLogout(): void{
+
   }
 
 }
